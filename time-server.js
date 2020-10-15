@@ -1,10 +1,10 @@
-const net = require("net");
+const { createServer } = require("net");
 
 const { format } = require("date-fns");
 
 const [_, __, port] = process.argv;
 
-const server = net.createServer(
+const server = createServer(
   // 'socket' will write and close
   (socket) => {
     console.info("client connected!");
