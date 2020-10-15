@@ -38,6 +38,7 @@
     "*.{js,css,md}": "prettier --write"
   },
   "dependencies": {
-    "bl": "^4.0.3"
+    "bl": "^4.0.3",
+    "date-fns": "^2.16.1"
   }
 }
