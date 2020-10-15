@@ -10,7 +10,7 @@ const [_, __, dir, ext] = process.argv;
 
   files.forEach((file) => {
     if (extname(file) === `.${ext}`) {
-      console.log(file);
+      console.info(file);
     }
   });
 })();

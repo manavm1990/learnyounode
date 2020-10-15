@@ -5,5 +5,5 @@ const {
 const [_, __, file] = process.argv;
 
 (async () => {
-  console.log((await readFile(file, "utf8")).split("\n").length - 1);
+  console.info((await readFile(file, "utf8")).split("\n").length - 1);
 })();
